@@ -774,7 +774,8 @@ section {
   text-transform: uppercase;
   color: #444444;
   transition: all 0.3s ease-in-out;
-  border: 2px solid #fff;
+  border: 2px solid #f3f3f3;
+  border-radius: 5px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #f3a200;
