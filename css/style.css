@@ -942,34 +942,35 @@ section {
 }
 
 /* ========== modal=========== */
-
 .portfolio-modal .modal-dialog {
-  margin: 15px auto;
-  max-width: 60%;
+  margin: 10px;
+  max-width: 100vw;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
-.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+/* .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 2rem;
   line-height: 3rem;
+} */
+.portfolio-modal .modal-content p {
+  /* font-style: italic; */
+  margin-top: 1.5rem;
+  font-family: verdana, "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.portfolio-modal .modal-content p.item-intro {
+/* .portfolio-modal .modal-content p {
+  margin-bottom: 2rem;
+} */
+.portfolio-modal .modal-content ul.list-inline {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.portfolio-modal .modal-content p {
+/* .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
-}
-.portfolio-modal .modal-content ul.list-inline {
-  margin-bottom: 2rem;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 2rem;
-}
+} */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;
