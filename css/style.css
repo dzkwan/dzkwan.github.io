@@ -762,15 +762,16 @@ section {
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
+  margin-left: -32px;
 }
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  margin: 0 10px 10px 10px;
+  margin: 0 8px 0 10px;
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  padding: 7px 10px;
+  padding: 7px;
   text-transform: uppercase;
   color: #444444;
   transition: all 0.3s ease-in-out;
@@ -944,7 +945,7 @@ section {
 
 /* ========== modal=========== */
 .portfolio-modal .modal-dialog {
-  margin: 10px;
+  margin: 15px;
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
